@@ -26,7 +26,19 @@ The clues run a visible `01 / 03` counter; the answers switch to `Answer 01` /
 ties both threads together — the three metrics were the math all along — and
 closes on "turn on notifications" ahead of the reveal.
 
-The reveal itself is not built.
+**Reveal:**
+
+| # | File | Device |
+| --- | --- | --- |
+| 06 | `src/Reveal.dc.html` | The name where the redaction bars were |
+
+Story 06 opens in story 01's voice ("So — I've been building") and drops the
+wordmark into the slot the redaction bars occupied, so the campaign's signature
+device is what pays it off. Its body line resolves story 03 directly: the math
+is offer, acquisition, retention, margin.
+
+Its CTA is a DM keyword (`10X`) rather than a link — it opens a conversation
+that can be qualified, and the footer offers a fit check rather than a pitch.
 
 The curiosity is about the viewer's business, not about the product's name —
 a name nobody has heard yet carries no stakes, so there is no name puzzle.
