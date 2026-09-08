@@ -17,17 +17,17 @@
       font-family: 'Space Mono', ui-monospace, 'Courier New', monospace;
       box-sizing: border-box;
     }
-    .glow, .grid, .noise { position: absolute; inset: 0; pointer-events: none; }
+    .glow, .grid, .noise { position: absolute; inset: 0; pointer-events: none; z-index: 0; }
     .glow {
       background:
-        radial-gradient(660px 620px at 50% 40%, rgba(198,255,61,0.13), rgba(198,255,61,0) 68%),
-        radial-gradient(900px 700px at 88% 96%, rgba(198,255,61,0.07), rgba(198,255,61,0) 70%);
+        radial-gradient(700px 640px at 50% 44%, rgba(198,255,61,0.14), rgba(198,255,61,0) 68%),
+        radial-gradient(900px 700px at 86% 98%, rgba(198,255,61,0.06), rgba(198,255,61,0) 70%);
     }
     .grid {
       background-image:
-        repeating-linear-gradient(to right, rgba(242,242,239,0.045) 0 1px, transparent 1px 90px),
-        repeating-linear-gradient(to bottom, rgba(242,242,239,0.045) 0 1px, transparent 1px 90px);
-      mask-image: radial-gradient(760px 900px at 50% 46%, #000 20%, transparent 78%);
+        repeating-linear-gradient(to right, rgba(242,242,239,0.05) 0 1px, transparent 1px 90px),
+        repeating-linear-gradient(to bottom, rgba(242,242,239,0.05) 0 1px, transparent 1px 90px);
+      mask-image: radial-gradient(780px 900px at 50% 48%, #000 20%, transparent 78%);
     }
     .noise {
       opacity: 0.16; mix-blend-mode: overlay;
@@ -35,29 +35,34 @@
     }
     .inner {
       position: relative; height: 100%; box-sizing: border-box;
-      padding: 258px 88px 258px;
+      padding: 258px 88px 258px; z-index: 1;
       display: flex; flex-direction: column; justify-content: space-between;
     }
+
     .topbar { display: flex; align-items: center; justify-content: space-between; }
     .tag { display: flex; align-items: center; gap: 18px;
       font-size: 25px; font-weight: 700; letter-spacing: 0.20em; text-transform: uppercase; color: #C6FF3D; }
     .dot { width: 15px; height: 15px; background: #C6FF3D; }
     .topright { font-size: 25px; letter-spacing: 0.20em; text-transform: uppercase; color: #7E7E88; }
 
-    .eyebrow { font-size: 27px; letter-spacing: 0.30em; text-transform: uppercase; color: #8A8A94; margin: 0 0 54px; }
-    .mark { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif;
-      font-size: 288px; line-height: 0.83; letter-spacing: -0.035em; margin: 0; }
-    .mark .l1 { display: block; color: #C6FF3D; }
-    .mark .l2 { display: block; color: #F2F2EF; }
-    .rule { height: 3px; background: #C6FF3D; width: 168px; margin: 62px 0 44px; }
-    .sub { font-size: 35px; line-height: 1.5; color: #B7B7BF; margin: 0; max-width: 830px; text-wrap: pretty; }
-    .sub em { font-style: normal; color: #F2F2EF; }
+    .head { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+      font-size: 156px; line-height: 0.86; letter-spacing: -0.03em; margin: 0; color: #F2F2EF; }
+    .head span { display: block; }
+    .redacted { display: flex; gap: 26px; margin-top: 62px; }
+    .redacted i { display: block; height: 112px; background: #C6FF3D; }
+    .r1 { width: 296px; }
+    .r2 { width: 468px; }
+
+    .say { margin: 58px 0 0; font-size: 35px; line-height: 1.5; color: #B7B7BF; max-width: 800px; text-wrap: pretty; }
+    .guess { display: flex; align-items: center; gap: 18px; margin: 34px 0 0;
+      font-size: 33px; font-weight: 700; letter-spacing: 0.02em; color: #C6FF3D; }
 
     .cta { display: flex; flex-direction: column; gap: 40px; align-items: flex-start; }
     .pill { display: flex; align-items: center; gap: 24px;
       background: #C6FF3D; color: #0B0B0F; padding: 32px 46px;
-      font-size: 34px; font-weight: 700; letter-spacing: 0.10em; text-transform: uppercase; }
-    .foot { display: flex; align-items: center; gap: 20px; font-size: 26px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E7E88; }
+      font-size: 34px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+    .foot { display: flex; align-items: center; gap: 20px;
+      font-size: 25px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E7E88; }
     .bar { width: 46px; height: 2px; background: #3A3A42; }
   </style>
 </helmet>
@@ -68,26 +73,31 @@
   <div class="inner">
 
     <div class="topbar">
-      <div class="tag"><span class="dot"></span><span>Cohort 01</span></div>
-      <div class="topright">Launching soon</div>
+      <div class="tag"><span class="dot"></span><span>Coming soon</span></div>
+      <div class="topright">No spoilers</div>
     </div>
 
     <div>
-      <p class="eyebrow">The ecom operator program</p>
-      <h1 class="mark"><span class="l1">10X</span><span class="l2">ECOM</span></h1>
-      <div class="rule"></div>
-      <p class="sub">A cohort for operators who are done guessing. <em>The systems behind stores that scale</em> — offer, acquisition, retention, margin.</p>
+      <h1 class="head">
+        <span>I've been</span>
+        <span>building</span>
+      </h1>
+      <div class="redacted"><i class="r1"></i><i class="r2"></i></div>
+      <p class="say">I'm not telling you what it is yet.</p>
+      <p class="guess">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#C6FF3D" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+          <path d="M5 12h13"></path>
+          <path d="M12 6l6 6-6 6"></path>
+        </svg>
+        <span>Reply with your best guess.</span>
+      </p>
     </div>
 
     <div class="cta">
       <div class="pill">
-        <span>Follow @10xecom</span>
-        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#0B0B0F" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
-          <path d="M5 12h13"></path>
-          <path d="M12 6l6 6-6 6"></path>
-        </svg>
+        <span>Follow me + stay tuned</span>
       </div>
-      <div class="foot"><span class="bar"></span><span>Doors open soon — stay tuned</span></div>
+      <div class="foot"><span class="bar"></span><span>First look drops here</span></div>
     </div>
 
   </div>

@@ -4,7 +4,8 @@ import { execFileSync } from 'node:child_process';
 const CHROME = '/opt/pw-browsers/chromium-1194/chrome-linux/chrome';
 mkdirSync('png', { recursive: true });
 
-for (const name of ['Main', 'DirectionB', 'DirectionC']) {
+import { readdirSync } from 'node:fs';
+for (const name of readdirSync('.').filter((f) => f.endsWith('.dc.html')).map((f) => f.replace('.dc.html', ''))) {
   const src = readFileSync(`${name}.dc.html`, 'utf8');
   const style = src.match(/<helmet>\s*<style>([\s\S]*?)<\/style>\s*<\/helmet>/)[1];
   const markup = src.match(/<\/helmet>([\s\S]*?)<\/x-dc>/)[1];
