@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    /*FONTS*/
+    body { margin: 0; background: #0B0B0F; }
+    a { color: #C6FF3D; } a:hover { color: #D8FF7A; }
+    .story {
+      position: relative; width: 1080px; height: 1920px; overflow: hidden;
+      background: #0B0B0F; color: #F2F2EF;
+      font-family: 'Space Mono', ui-monospace, 'Courier New', monospace;
+      box-sizing: border-box;
+      display: flex; flex-direction: column; justify-content: space-between;
+      padding: 252px 0 252px;
+    }
+    .noise { position: absolute; inset: 0; pointer-events: none; opacity: 0.15; mix-blend-mode: overlay;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+    .band { position: relative; background: #C6FF3D; color: #0B0B0F; height: 88px;
+      display: flex; align-items: center; overflow: hidden; white-space: nowrap; }
+    .band span { font-size: 30px; font-weight: 700; letter-spacing: 0.20em; text-transform: uppercase; padding-right: 34px; }
+
+    .mid { position: relative; padding: 0 84px; }
+    .mark { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+      font-size: 286px; line-height: 0.82; letter-spacing: -0.04em; margin: 0 0 70px; }
+    .mark .out { display: block; color: transparent;
+      -webkit-text-stroke: 4px #F2F2EF; }
+    .mark .fill { display: block; color: #C6FF3D; }
+
+    .pillars { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
+    .pillar { border-top: 3px solid rgba(242,242,239,0.22); padding-top: 26px; }
+    .num { font-size: 24px; font-weight: 700; letter-spacing: 0.16em; color: #C6FF3D; margin: 0 0 16px; }
+    .lab { font-size: 29px; line-height: 1.32; letter-spacing: 0.02em; text-transform: uppercase; color: #F2F2EF; margin: 0; }
+
+    .bottom { position: relative; padding: 0 84px; display: flex; flex-direction: column; gap: 44px; }
+    .kick { font-size: 33px; line-height: 1.5; color: #B7B7BF; margin: 0; max-width: 800px; text-wrap: pretty; }
+    .ctaband { display: flex; align-items: center; justify-content: space-between; gap: 24px;
+      background: #C6FF3D; color: #0B0B0F; padding: 34px 44px; }
+    .ctaband strong { font-size: 36px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; }
+  </style>
+</helmet>
+<div class="story">
+  <div class="noise"></div>
+
+  <div class="band">
+    <span>10xecom</span><span>//</span><span>cohort 01</span><span>//</span><span>10xecom</span><span>//</span><span>cohort 01</span><span>//</span><span>10xecom</span><span>//</span>
+  </div>
+
+  <div class="mid">
+    <h1 class="mark"><span class="out">10X</span><span class="fill">ECOM</span></h1>
+    <div class="pillars">
+      <div class="pillar"><p class="num">01</p><p class="lab">Offer &amp;<br>positioning</p></div>
+      <div class="pillar"><p class="num">02</p><p class="lab">Paid<br>acquisition</p></div>
+      <div class="pillar"><p class="num">03</p><p class="lab">Retention<br>&amp; margin</p></div>
+    </div>
+  </div>
+
+  <div class="bottom">
+    <p class="kick">The operator cohort for stores that want compounding growth, not another hack list.</p>
+    <div class="ctaband">
+      <strong>Follow @10xecom</strong>
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#0B0B0F" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+        <path d="M5 12h13"></path>
+        <path d="M12 6l6 6-6 6"></path>
+      </svg>
+    </div>
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

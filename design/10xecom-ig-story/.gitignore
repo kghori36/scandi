@@ -1,0 +1,5 @@
+# Seeded canvas payload — regenerate with seed-canvas.mjs from src/ + canvas.json
+10xecom-ig-story.html
+# Font-inlined build output — regenerate with `node build.mjs`
+*.dc.html
+!src/*.dc.html

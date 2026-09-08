@@ -1,0 +1,11 @@
+{
+  "artboards": [
+    { "file": "Main.dc.html",       "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "Main — wordmark drop" },
+    { "file": "DirectionB.dc.html", "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "B — ticker bands" },
+    { "file": "DirectionC.dc.html", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "C — editorial" }
+  ],
+  "annotations": [
+    { "id": "notes", "x": 0, "y": -230, "w": 720, "text": "1080x1920. Handle @10xecom is assumed - retype it in place if yours differs.\nTop and bottom 250px are kept clear for Instagram's profile row and reply bar." }
+  ],
+  "launch": { "view": "canvas" }
+}
