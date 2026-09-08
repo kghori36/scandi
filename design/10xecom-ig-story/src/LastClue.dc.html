@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    /*FONTS*/
+/*BASE*/
+    .head { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+      font-size: 124px; line-height: 0.86; letter-spacing: -0.03em; margin: 0; color: #F2F2EF; }
+    .head span { display: block; }
+    .slots { display: flex; gap: 20px; margin-top: 58px; }
+    .slot { width: 112px; height: 148px; box-sizing: border-box;
+      border: 4px solid rgba(198,255,61,0.42); }
+    .slot.on { border-color: #C6FF3D; background: #C6FF3D; color: #0B0B0F;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif; font-size: 86px; }
+  </style>
+</helmet>
+<div class="story">
+  <div class="glow"></div>
+  <div class="grid"></div>
+  <div class="noise"></div>
+  <div class="inner">
+
+    <div class="topbar">
+      <div class="tag"><span class="dot"></span><span>Clue 02</span></div>
+      <div class="topright">Last one</div>
+    </div>
+
+    <div>
+      <h1 class="head"><span>Seven</span><span>characters.</span></h1>
+      <div class="slots">
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot on">X</div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+        <div class="slot"></div>
+      </div>
+      <p class="say">That's the name. You've already got the rest.</p>
+      <p class="guess">
+        <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#C6FF3D" stroke-width="2.6" stroke-linecap="square" stroke-linejoin="miter" aria-hidden="true">
+          <path d="M5 12h13"></path>
+          <path d="M12 6l6 6-6 6"></path>
+        </svg>
+        <span>DM me if you've cracked it.</span>
+      </p>
+    </div>
+
+    <div class="cta">
+      <div class="pill"><span>Follow me + stay tuned</span></div>
+      <div class="foot"><span class="bar"></span><span>The reveal is next</span></div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

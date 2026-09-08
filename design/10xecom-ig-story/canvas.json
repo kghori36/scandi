@@ -1,9 +1,12 @@
 {
   "artboards": [
-    { "file": "Main.dc.html", "x": 0, "y": 0, "w": 1080, "h": 1920, "title": "Teaser story" }
+    { "file": "Main.dc.html",     "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "1 — Teaser" },
+    { "file": "Clue.dc.html",     "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "2 — Clue 01" },
+    { "file": "LastClue.dc.html", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "3 — Clue 02" }
   ],
   "annotations": [
-    { "id": "notes", "x": 1200, "y": 0, "w": 620, "text": "1080x1920 teaser for a personal profile. Nothing names the product.\n\nThe empty band between \"Reply with your best guess\" and the CTA is deliberate - drop an Instagram poll or question sticker there.\n\nTop and bottom 250px are kept clear for Instagram's profile row and reply bar." }
+    { "id": "seq", "x": 0, "y": -300, "w": 760, "text": "Post in order, one per day. Each one is 1080x1920.\n\n1. Redaction - something exists, you are not saying what.\n2. AOV / CAC / LTV - the audience filter. Operators know these three; nobody else does. Never says ecommerce.\n3. Seven blank characters with the X shown in slot 3 - that is honest: 1 0 X E C O M." },
+    { "id": "stickers", "x": 840, "y": -300, "w": 700, "text": "The empty band above each CTA is deliberate - drop a poll or question sticker there. Story replies land in DMs, which is the engagement that matters.\n\nTop and bottom 250px are kept clear for Instagram's profile row and reply bar." }
   ],
-  "launch": { "view": "focused", "file": "Main.dc.html" }
+  "launch": { "view": "canvas" }
 }

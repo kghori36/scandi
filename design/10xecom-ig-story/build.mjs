@@ -13,7 +13,8 @@ const fontCss = faces.map(([fam, wght, path]) => {
 
 const srcs = readdirSync('src').filter((f) => f.endsWith('.dc.html'));
 for (const f of srcs) {
-  const out = readFileSync(`src/${f}`, 'utf8').replace('/*FONTS*/', fontCss);
+  const baseCss = readFileSync('src/_base.css', 'utf8');
+  const out = readFileSync(`src/${f}`, 'utf8').replace('/*FONTS*/', fontCss).replace('/*BASE*/', baseCss);
   if (out.includes('/*FONTS*/')) throw new Error(`no font token replaced in ${f}`);
   writeFileSync(f, out);
   console.log(`built ${f}  ${(out.length / 1024).toFixed(0)} KB`);
