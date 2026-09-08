@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <style>
+    /*FONTS*/
+/*BASE*/
+    .rows { display: flex; flex-direction: column; gap: 0; }
+    .row { border-top: 2px solid rgba(242,242,239,0.16); padding: 28px 0 32px; }
+    .row:last-child { border-bottom: 2px solid rgba(242,242,239,0.16); }
+    .acr { font-family: 'Archivo Black', 'Arial Black', Impact, sans-serif;
+      font-size: 130px; line-height: 0.9; letter-spacing: -0.02em; margin: 0 0 12px; color: #C6FF3D; }
+    .exp { font-size: 30px; line-height: 1.35; letter-spacing: 0.02em; color: #B7B7BF; margin: 0; }
+  </style>
+</helmet>
+<div class="story">
+  <div class="glow"></div>
+  <div class="grid"></div>
+  <div class="noise"></div>
+  <div class="inner">
+
+    <div class="topbar">
+      <div class="tag"><span class="dot"></span><span>Answer 01</span></div>
+      <div class="topright">You were close</div>
+    </div>
+
+    <div>
+      <div class="rows">
+        <div class="row"><p class="acr">AOV</p><p class="exp">Average order value</p></div>
+        <div class="row"><p class="acr">CAC</p><p class="exp">Cost to acquire a customer</p></div>
+        <div class="row"><p class="acr">LTV</p><p class="exp">What they're worth after that</p></div>
+      </div>
+      <p class="say">If you sell online, I was talking to you the whole time.</p>
+    </div>
+
+    <div class="cta">
+      <div class="pill"><span>Follow me + stay tuned</span></div>
+      <div class="foot"><span class="bar"></span><span>One more answer to go</span></div>
+    </div>
+
+  </div>
+</div>
+</x-dc>
+</body>
+</html>

@@ -1,12 +1,15 @@
 {
   "artboards": [
-    { "file": "Main.dc.html",     "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — The reveal that isn't" },
-    { "file": "Clue.dc.html",     "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — The audience filter" },
-    { "file": "LastClue.dc.html", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — The tension" }
+    { "file": "Main.dc.html",      "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — Something exists" },
+    { "file": "Clue.dc.html",      "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — The audience filter" },
+    { "file": "LastClue.dc.html",  "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — The tension" },
+    { "file": "AnswerOne.dc.html", "x": 3720, "y": 0, "w": 1080, "h": 1920, "title": "04 — Answer 01" },
+    { "file": "AnswerTwo.dc.html", "x": 4960, "y": 0, "w": 1080, "h": 1920, "title": "05 — Answer 02" }
   ],
   "annotations": [
-    { "id": "seq", "x": 0, "y": -330, "w": 780, "text": "Post in order, one per day. Each is 1080x1920.\n\n01 - Something exists, you are not saying what. The redaction is the signature device.\n02 - AOV / CAC / LTV. An audience filter, not a description: operators recognise all three, nobody else does. Never says ecommerce.\n03 - A tension they already feel, with the answer redacted. Curiosity about their own business, not about a name." },
-    { "id": "stickers", "x": 860, "y": -330, "w": 700, "text": "The 01 / 03 counter is the retention mechanic - it tells people more is coming and gives them a reason to check back.\n\nThe empty band above each CTA is deliberate: drop a poll or question sticker there. Story replies land in DMs, which is the engagement that counts.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
+    { "id": "clues", "x": 0, "y": -350, "w": 780, "text": "CLUES - post in order, one per day. Each is 1080x1920.\n\n01 Something exists, you are not saying what. The redaction is the signature device.\n02 AOV / CAC / LTV. An audience filter, not a description: operators recognise all three, nobody else does. Never says ecommerce.\n03 A tension they already feel, answer redacted. Curiosity about their business, not about a name." },
+    { "id": "answers", "x": 860, "y": -350, "w": 780, "text": "ANSWERS - the payoff, before the reveal.\n\n04 Decodes 02. Lets the followers who did not know the acronyms in, and confirms it for the ones who did.\n05 Fills in 03's redaction bar with the word: math. The subline ties both clues together - the three metrics WERE the math.\n\nThen the reveal, which is not built yet." },
+    { "id": "craft", "x": 1720, "y": -350, "w": 700, "text": "Counters run 01/03 through 03/03 for the clues, then Answer 01 / Answer 02 - two phases, so 03 does not read as the end.\n\nThe empty band above each CTA is deliberate: drop a poll or question sticker there. Story replies land in DMs.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
   ],
   "launch": { "view": "canvas" }
 }

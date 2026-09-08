@@ -6,11 +6,27 @@ acid `#C6FF3D` accent, Archivo Black display + Space Mono.
 
 | # | File | Device |
 | --- | --- | --- |
+**Clues** — post one per day, in order:
+
+| # | File | Device |
+| --- | --- | --- |
 | 01 | `src/Main.dc.html` | Redaction bars: "I've been building ███ █████" |
 | 02 | `src/Clue.dc.html` | `AOV / CAC / LTV` — an audience filter, not a description |
 | 03 | `src/LastClue.dc.html` | "It's not traffic. It's ███████." |
 
-Each opens on an `01 / 03` counter, so the sequence announces its own length.
+**Answers** — the payoff, before the reveal:
+
+| # | File | Device |
+| --- | --- | --- |
+| 04 | `src/AnswerOne.dc.html` | Decodes the three acronyms |
+| 05 | `src/AnswerTwo.dc.html` | Fills 03's redaction bar: "It's math." |
+
+The clues run a visible `01 / 03` counter; the answers switch to `Answer 01` /
+`Answer 02`, so story 03 does not read as the end of the campaign. Answer 05
+ties both threads together — the three metrics were the math all along — and
+closes on "turn on notifications" ahead of the reveal.
+
+The reveal itself is not built.
 
 The curiosity is about the viewer's business, not about the product's name —
 a name nobody has heard yet carries no stakes, so there is no name puzzle.
