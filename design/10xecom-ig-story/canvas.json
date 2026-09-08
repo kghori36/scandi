@@ -1,12 +1,12 @@
 {
   "artboards": [
-    { "file": "Main.dc.html",     "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "1 — Teaser" },
-    { "file": "Clue.dc.html",     "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "2 — Clue 01" },
-    { "file": "LastClue.dc.html", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "3 — Clue 02" }
+    { "file": "Main.dc.html",     "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — The reveal that isn't" },
+    { "file": "Clue.dc.html",     "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — The audience filter" },
+    { "file": "LastClue.dc.html", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — The tension" }
   ],
   "annotations": [
-    { "id": "seq", "x": 0, "y": -300, "w": 760, "text": "Post in order, one per day. Each one is 1080x1920.\n\n1. Redaction - something exists, you are not saying what.\n2. AOV / CAC / LTV - the audience filter. Operators know these three; nobody else does. Never says ecommerce.\n3. Seven blank characters with the X shown in slot 3 - that is honest: 1 0 X E C O M." },
-    { "id": "stickers", "x": 840, "y": -300, "w": 700, "text": "The empty band above each CTA is deliberate - drop a poll or question sticker there. Story replies land in DMs, which is the engagement that matters.\n\nTop and bottom 250px are kept clear for Instagram's profile row and reply bar." }
+    { "id": "seq", "x": 0, "y": -330, "w": 780, "text": "Post in order, one per day. Each is 1080x1920.\n\n01 - Something exists, you are not saying what. The redaction is the signature device.\n02 - AOV / CAC / LTV. An audience filter, not a description: operators recognise all three, nobody else does. Never says ecommerce.\n03 - A tension they already feel, with the answer redacted. Curiosity about their own business, not about a name." },
+    { "id": "stickers", "x": 860, "y": -330, "w": 700, "text": "The 01 / 03 counter is the retention mechanic - it tells people more is coming and gives them a reason to check back.\n\nThe empty band above each CTA is deliberate: drop a poll or question sticker there. Story replies land in DMs, which is the engagement that counts.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
   ],
   "launch": { "view": "canvas" }
 }

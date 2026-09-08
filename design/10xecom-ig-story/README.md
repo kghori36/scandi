@@ -6,13 +6,17 @@ acid `#C6FF3D` accent, Archivo Black display + Space Mono.
 
 | # | File | Device |
 | --- | --- | --- |
-| 1 | `src/Main.dc.html` | Redaction bars: "I've been building ███ █████" |
-| 2 | `src/Clue.dc.html` | `AOV / CAC / LTV` — an audience filter, not a description |
-| 3 | `src/LastClue.dc.html` | Seven blank characters, `X` shown in slot 3 |
+| 01 | `src/Main.dc.html` | Redaction bars: "I've been building ███ █████" |
+| 02 | `src/Clue.dc.html` | `AOV / CAC / LTV` — an audience filter, not a description |
+| 03 | `src/LastClue.dc.html` | "It's not traffic. It's ███████." |
 
-The clues are honest: slot 3 of `10XECOM` really is `X`. Clue 2 narrows the
-audience without naming the category — operators recognise the three metrics,
-nobody else does.
+Each opens on an `01 / 03` counter, so the sequence announces its own length.
+
+The curiosity is about the viewer's business, not about the product's name —
+a name nobody has heard yet carries no stakes, so there is no name puzzle.
+Story 02 narrows the audience without naming the category: operators recognise
+the three metrics, nobody else does. Story 03 states a tension they already
+feel and redacts the answer.
 
 CTA on all three is `Follow me + stay tuned` (personal profile, not a brand
 page), with a reply/DM prompt to pull story replies into DMs.
