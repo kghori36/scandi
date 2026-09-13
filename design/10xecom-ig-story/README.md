@@ -10,7 +10,7 @@ acid `#C6FF3D` accent, Archivo Black display + Space Mono.
 
 | # | File | Device |
 | --- | --- | --- |
-| 01 | `src/Main.dc.html` | Redaction bars: "I've been building ███ █████" |
+| 01 | `src/Main.dc.html` | "Still up after your shift?" + "I've been building ███" |
 | 02 | `src/Clue.dc.html` | `AOV / CAC / LTV` — an audience filter, not a description |
 | 03 | `src/LastClue.dc.html` | "It's not traffic. It's ███████." |
 
@@ -47,10 +47,14 @@ scams. The promise on story 06 is the site's own line, and the site's
 disclaimer ("no income guarantees, real business, real work") is set on the
 image on purpose: for this audience, saying it out loud is a trust asset.
 
+Story 01 names the person rather than the product: the headline filters *in*
+(a shift worker recognises themselves) instead of filtering out, and the
+redaction bar introduces the device story 06 pays off.
+
 **Stories 02–05 are written for the wrong person.** `AOV / CAC / LTV` and "it's
 not traffic, it's math" assume an experienced operator. A complete beginner
 working shifts does not know those acronyms and will read them as "not for me".
-Story 01 is unaffected — it says nothing about who it is for.
+Stories 01 and 06 are rebuilt on the real avatar and are safe to post.
 
 The curiosity is about the viewer's business, not about the product's name —
 a name nobody has heard yet carries no stakes, so there is no name puzzle.
