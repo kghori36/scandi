@@ -1,85 +1,24 @@
 {
+  "pages": [
+    { "id": "page-1", "name": "Launch runway" },
+    { "id": "page-2", "name": "Ongoing formats" }
+  ],
   "artboards": [
-    {
-      "file": "Main.dc.html",
-      "x": 0,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "01 \u2014 Who it's for (on-avatar)"
-    },
-    {
-      "file": "Clue.dc.html",
-      "x": 1240,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "02 \u2014 The audience filter"
-    },
-    {
-      "file": "LastClue.dc.html",
-      "x": 2480,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "03 \u2014 The tension"
-    },
-    {
-      "file": "AnswerOne.dc.html",
-      "x": 3720,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "04 \u2014 Answer 01"
-    },
-    {
-      "file": "AnswerTwo.dc.html",
-      "x": 4960,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "05 \u2014 Answer 02"
-    },
-    {
-      "file": "Reveal.dc.html",
-      "x": 6200,
-      "y": 0,
-      "w": 1080,
-      "h": 1920,
-      "title": "06 \u2014 The reveal (on-avatar)"
-    }
+    { "file": "Main.dc.html",      "page": "page-1", "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — Who it's for (on-avatar)" },
+    { "file": "Clue.dc.html",      "page": "page-1", "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — OFF-AVATAR, do not post" },
+    { "file": "LastClue.dc.html",  "page": "page-1", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — OFF-AVATAR, do not post" },
+    { "file": "AnswerOne.dc.html", "page": "page-1", "x": 3720, "y": 0, "w": 1080, "h": 1920, "title": "04 — OFF-AVATAR, do not post" },
+    { "file": "AnswerTwo.dc.html", "page": "page-1", "x": 4960, "y": 0, "w": 1080, "h": 1920, "title": "05 — OFF-AVATAR, do not post" },
+    { "file": "Reveal.dc.html",    "page": "page-1", "x": 6200, "y": 0, "w": 1080, "h": 1920, "title": "06 — The reveal (on-avatar)" },
+
+    { "file": "PathStep.dc.html",  "page": "page-2", "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "The Path — one step per post" },
+    { "file": "Myth.dc.html",      "page": "page-2", "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "Myth / Truth — objection killer" },
+    { "file": "RealTalk.dc.html",  "page": "page-2", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "Real Talk — trust builder" }
   ],
   "annotations": [
-    {
-      "id": "avatar",
-      "x": 0,
-      "y": -430,
-      "w": 900,
-      "text": "AVATAR (from 10xecom.ca): complete beginners - shift workers and newcomers to North America. Building alongside a job, on a tight budget. Wary of scams. Taught by someone who worked shifts and carried debt.\n\nSite promise: \"Build your Shopify business without quitting your job.\"\nSite disclaimer: \"NO INCOME GUARANTEES. THIS IS A REAL BUSINESS THAT TAKES REAL WORK.\""
-    },
-    {
-      "id": "warning",
-      "x": 980,
-      "y": -430,
-      "w": 900,
-      "text": "WARNING - posts 02 to 05 are still aimed at the WRONG PERSON.\n\nAOV / CAC / LTV and \"it's not traffic, it's math\" were written for experienced operators. A complete beginner working shifts does not know those acronyms and will read them as \"not for me\" - the opposite of what an audience filter should do here.\n\n01 and 06 are rebuilt on the real avatar and are safe to post. 02 to 05 are not."
-    },
-    {
-      "id": "reveal",
-      "x": 1960,
-      "y": -430,
-      "w": 820,
-      "text": "01 names the person without naming the product: \"Still up after your shift?\" filters IN rather than out, and the redaction bar introduces the device that 06 pays off.\n\n06 keeps story 01's voice, then puts the name where the bar was. The promise is the site's own line.\n\nThe disclaimer sits on 06 deliberately - this audience is targeted by scams, so saying \"no income guarantees\" out loud is a trust asset.\n\nDM keyword is 10X. Wire the auto-reply before posting."
-    },
-    {
-      "id": "craft",
-      "x": 2860,
-      "y": -430,
-      "w": 700,
-      "text": "Top and bottom 250px stay clear for Instagram's profile row and reply bar.\n\nThe band above each CTA is deliberate sticker room."
-    }
+    { "id": "runway", "page": "page-1", "x": 0, "y": -360, "w": 900, "text": "01 and 06 are built on the real avatar and are safe to post.\n\n02 to 05 are NOT. AOV / CAC / LTV and \"it's not traffic, it's math\" were written for experienced operators, before the avatar was known. A complete beginner working shifts does not know those acronyms and will read them as \"not for me\". Re-cut them before using." },
+    { "id": "formats", "page": "page-2", "x": 0, "y": -400, "w": 960, "text": "THREE REPEATABLE FORMATS - refill these, do not redesign them.\n\nTHE PATH: one curriculum step per post, numbered. Swap the number, the title and the paragraph. As many posts as the path has steps.\n\nMYTH / TRUTH: kills one objection per post. Swap both lines. Never invent a number in the myth.\n\nREAL TALK: the founder's own story. Swap the quote and the paragraph. Rarest of the three - it loses power if overused." },
+    { "id": "cadence", "page": "page-2", "x": 1040, "y": -400, "w": 900, "text": "Suggested rotation: Path, Path, Myth, Path, Real Talk. Teaching carries the week; trust posts punctuate it.\n\nEvery format ends on the same DM keyword and the same disclaimer. The repetition is the point - for an audience this heavily targeted by scams, a standing \"no income guarantees\" reads as a signature, not a legal chore.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
   ],
-  "launch": {
-    "view": "canvas"
-  }
+  "launch": { "view": "canvas", "page": "page-2" }
 }

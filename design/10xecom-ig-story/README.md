@@ -79,3 +79,25 @@ because PNG export does not embed webfonts fetched from a CDN.
 Layout keeps the top and bottom 250px clear of content for Instagram's profile
 row and reply bar. The gap above each CTA is deliberate room for a poll or
 question sticker.
+
+## Ongoing formats (after the reveal)
+
+Three repeatable templates on the canvas's second page. Refill them; don't
+redesign them — the consistency is what makes the account look like a brand.
+
+| Format | File | Job |
+| --- | --- | --- |
+| The Path | `src/PathStep.dc.html` | One curriculum step per post, numbered |
+| Myth / Truth | `src/Myth.dc.html` | Kills one objection per post |
+| Real Talk | `src/RealTalk.dc.html` | The founder's own story — trust |
+
+Swap the number, title and paragraph on The Path; both lines on Myth / Truth;
+the quote and paragraph on Real Talk. Suggested rotation: Path, Path, Myth,
+Path, Real Talk — teaching carries the week, trust posts punctuate it.
+
+Every format closes on the same DM keyword and the same disclaimer. For an
+audience this heavily targeted by scams, a standing "no income guarantees"
+reads as a signature rather than a legal chore.
+
+Never invent a figure in a myth line, and never put a number in a Real Talk
+quote — the whole position is that this business does not promise one.

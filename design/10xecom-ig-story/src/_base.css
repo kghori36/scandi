@@ -45,3 +45,13 @@
     .foot { display: flex; align-items: center; gap: 20px;
       font-size: 25px; letter-spacing: 0.16em; text-transform: uppercase; color: #7E7E88; }
     .bar { width: 46px; height: 2px; background: #3A3A42; }
+
+    .dm { display: flex; align-items: center; gap: 20px;
+      background: #C6FF3D; color: #0B0B0F; padding: 30px 42px;
+      font-size: 34px; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; }
+    .kw { background: #0B0B0F; color: #C6FF3D; padding: 10px 20px; letter-spacing: 0.08em; }
+    .legal { border-top: 2px solid rgba(242,242,239,0.16); padding-top: 22px;
+      font-size: 22px; letter-spacing: 0.14em; text-transform: uppercase; color: #6E6E78; margin: 0; }
+    .label { display: flex; align-items: center; gap: 16px;
+      font-size: 26px; font-weight: 700; letter-spacing: 0.20em; text-transform: uppercase; margin: 0 0 20px; }
+    .label i { display: block; width: 34px; height: 3px; }
