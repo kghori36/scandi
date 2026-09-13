@@ -80,24 +80,27 @@ Layout keeps the top and bottom 250px clear of content for Instagram's profile
 row and reply bar. The gap above each CTA is deliberate room for a poll or
 question sticker.
 
-## Ongoing formats (after the reveal)
+## Value-first posts
 
-Three repeatable templates on the canvas's second page. Refill them; don't
-redesign them — the consistency is what makes the account look like a brand.
+Nothing on the canvas's second page sells anything: no DM keyword, no offer,
+no price. Every post closes on SAVE, SHARE or FOLLOW, the three actions that
+build an audience. An **outlined** button marks a value post; the **solid**
+one is reserved for the launch post.
 
-| Format | File | Job |
+Run them in this order:
+
+| # | File | Job |
 | --- | --- | --- |
-| The Path | `src/PathStep.dc.html` | One curriculum step per post, numbered |
-| Myth / Truth | `src/Myth.dc.html` | Kills one objection per post |
-| Real Talk | `src/RealTalk.dc.html` | The founder's own story — trust |
+| 1 | `src/RedFlags.dc.html` | Protection, not promotion — earns the follow |
+| 2 | `src/HonestCost.dc.html` | Sets expectations before anyone feels misled |
+| 3 | `src/PathStep.dc.html` | Teaches one curriculum step, in full |
+| 4 | `src/Myth.dc.html` | Kills one objection per post |
+| 5 | `src/RealTalk.dc.html` | Founder story — use sparingly |
 
-Swap the number, title and paragraph on The Path; both lines on Myth / Truth;
-the quote and paragraph on Real Talk. Suggested rotation: Path, Path, Myth,
-Path, Real Talk — teaching carries the week, trust posts punctuate it.
+`PathStep` and `Myth` are templates: swap the number, title and paragraph, or
+both lines, and post again. `RealTalk` loses force if it becomes weekly.
 
-Every format closes on the same DM keyword and the same disclaimer. For an
-audience this heavily targeted by scams, a standing "no income guarantees"
-reads as a signature rather than a legal chore.
-
-Never invent a figure in a myth line, and never put a number in a Real Talk
-quote — the whole position is that this business does not promise one.
+Two rules keep this honest. **Never invent a figure** — not in a myth, not in
+a cost, not in a quote; the whole position is that this business does not
+promise a number. And **teach the thing completely**: a value post that stops
+halfway to make you DM is an ad, and this audience can tell.

@@ -1,24 +1,151 @@
 {
   "pages": [
-    { "id": "page-1", "name": "Launch runway" },
-    { "id": "page-2", "name": "Ongoing formats" }
+    {
+      "id": "page-1",
+      "name": "Launch runway"
+    },
+    {
+      "id": "page-2",
+      "name": "Ongoing formats"
+    }
   ],
   "artboards": [
-    { "file": "Main.dc.html",      "page": "page-1", "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — Who it's for (on-avatar)" },
-    { "file": "Clue.dc.html",      "page": "page-1", "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — OFF-AVATAR, do not post" },
-    { "file": "LastClue.dc.html",  "page": "page-1", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — OFF-AVATAR, do not post" },
-    { "file": "AnswerOne.dc.html", "page": "page-1", "x": 3720, "y": 0, "w": 1080, "h": 1920, "title": "04 — OFF-AVATAR, do not post" },
-    { "file": "AnswerTwo.dc.html", "page": "page-1", "x": 4960, "y": 0, "w": 1080, "h": 1920, "title": "05 — OFF-AVATAR, do not post" },
-    { "file": "Reveal.dc.html",    "page": "page-1", "x": 6200, "y": 0, "w": 1080, "h": 1920, "title": "06 — The reveal (on-avatar)" },
-
-    { "file": "PathStep.dc.html",  "page": "page-2", "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "The Path — one step per post" },
-    { "file": "Myth.dc.html",      "page": "page-2", "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "Myth / Truth — objection killer" },
-    { "file": "RealTalk.dc.html",  "page": "page-2", "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "Real Talk — trust builder" }
+    {
+      "file": "Main.dc.html",
+      "page": "page-1",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "01 \u2014 Who it's for (on-avatar)"
+    },
+    {
+      "file": "Clue.dc.html",
+      "page": "page-1",
+      "x": 1240,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "02 \u2014 OFF-AVATAR, do not post"
+    },
+    {
+      "file": "LastClue.dc.html",
+      "page": "page-1",
+      "x": 2480,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "03 \u2014 OFF-AVATAR, do not post"
+    },
+    {
+      "file": "AnswerOne.dc.html",
+      "page": "page-1",
+      "x": 3720,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "04 \u2014 OFF-AVATAR, do not post"
+    },
+    {
+      "file": "AnswerTwo.dc.html",
+      "page": "page-1",
+      "x": 4960,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "05 \u2014 OFF-AVATAR, do not post"
+    },
+    {
+      "file": "Reveal.dc.html",
+      "page": "page-1",
+      "x": 6200,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "06 \u2014 The reveal (on-avatar)"
+    },
+    {
+      "file": "RedFlags.dc.html",
+      "page": "page-2",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "Red flags \u2014 trust builder"
+    },
+    {
+      "file": "HonestCost.dc.html",
+      "page": "page-2",
+      "x": 1240,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "Honest cost \u2014 expectation setter"
+    },
+    {
+      "file": "PathStep.dc.html",
+      "page": "page-2",
+      "x": 2480,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "The Path \u2014 one step per post"
+    },
+    {
+      "file": "Myth.dc.html",
+      "page": "page-2",
+      "x": 3720,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "Myth / Truth \u2014 objection killer"
+    },
+    {
+      "file": "RealTalk.dc.html",
+      "page": "page-2",
+      "x": 4960,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "Real Talk \u2014 founder story"
+    }
   ],
   "annotations": [
-    { "id": "runway", "page": "page-1", "x": 0, "y": -360, "w": 900, "text": "01 and 06 are built on the real avatar and are safe to post.\n\n02 to 05 are NOT. AOV / CAC / LTV and \"it's not traffic, it's math\" were written for experienced operators, before the avatar was known. A complete beginner working shifts does not know those acronyms and will read them as \"not for me\". Re-cut them before using." },
-    { "id": "formats", "page": "page-2", "x": 0, "y": -400, "w": 960, "text": "THREE REPEATABLE FORMATS - refill these, do not redesign them.\n\nTHE PATH: one curriculum step per post, numbered. Swap the number, the title and the paragraph. As many posts as the path has steps.\n\nMYTH / TRUTH: kills one objection per post. Swap both lines. Never invent a number in the myth.\n\nREAL TALK: the founder's own story. Swap the quote and the paragraph. Rarest of the three - it loses power if overused." },
-    { "id": "cadence", "page": "page-2", "x": 1040, "y": -400, "w": 900, "text": "Suggested rotation: Path, Path, Myth, Path, Real Talk. Teaching carries the week; trust posts punctuate it.\n\nEvery format ends on the same DM keyword and the same disclaimer. The repetition is the point - for an audience this heavily targeted by scams, a standing \"no income guarantees\" reads as a signature, not a legal chore.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
+    {
+      "id": "runway",
+      "page": "page-1",
+      "x": 0,
+      "y": -360,
+      "w": 900,
+      "text": "01 and 06 are built on the real avatar and are safe to post.\n\n02 to 05 are NOT. AOV / CAC / LTV and \"it's not traffic, it's math\" were written for experienced operators, before the avatar was known. A complete beginner working shifts does not know those acronyms and will read them as \"not for me\". Re-cut them before using."
+    },
+    {
+      "id": "value",
+      "page": "page-2",
+      "x": 0,
+      "y": -420,
+      "w": 960,
+      "text": "VALUE FIRST - nothing on this page sells anything.\n\nNo DM keyword, no offer, no price. Every post ends on SAVE, SHARE or FOLLOW, because those are the three actions that build an audience. The outlined button marks a value post; the solid one is only for the launch post on page 1.\n\nThe disclaimer is gone from these too - it belongs on posts that make a claim, and these make none."
+    },
+    {
+      "id": "order",
+      "page": "page-2",
+      "x": 1040,
+      "y": -420,
+      "w": 960,
+      "text": "RUN THEM IN THIS ORDER.\n\n1. Red flags - leads with protection, not promotion. \"I sell one of these, hold me to all four\" is the line that earns the follow.\n2. Honest cost - sets expectations before anyone can feel misled later.\n3. The Path - proves a real system exists. One step per post, as many posts as the path has steps.\n4. Myth / Truth - one objection per post, drawn from what people actually reply.\n5. Real Talk - use sparingly. It loses force if it becomes weekly."
+    },
+    {
+      "id": "rules",
+      "page": "page-2",
+      "x": 2080,
+      "y": -420,
+      "w": 860,
+      "text": "RULES THAT KEEP THIS HONEST\n\nNever invent a figure - not in a myth, not in a cost, not in a Real Talk quote. The whole position is that this business does not promise a number.\n\nTeach the thing completely. A value post that stops halfway to make you DM is an ad, and this audience can tell.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar."
+    }
   ],
-  "launch": { "view": "canvas", "page": "page-2" }
+  "launch": {
+    "view": "canvas",
+    "page": "page-2"
+  }
 }
