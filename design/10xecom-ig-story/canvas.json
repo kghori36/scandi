@@ -1,17 +1,85 @@
 {
   "artboards": [
-    { "file": "Main.dc.html",      "x": 0,    "y": 0, "w": 1080, "h": 1920, "title": "01 — Something exists" },
-    { "file": "Clue.dc.html",      "x": 1240, "y": 0, "w": 1080, "h": 1920, "title": "02 — The audience filter" },
-    { "file": "LastClue.dc.html",  "x": 2480, "y": 0, "w": 1080, "h": 1920, "title": "03 — The tension" },
-    { "file": "AnswerOne.dc.html", "x": 3720, "y": 0, "w": 1080, "h": 1920, "title": "04 — Answer 01" },
-    { "file": "AnswerTwo.dc.html", "x": 4960, "y": 0, "w": 1080, "h": 1920, "title": "05 — Answer 02" },
-    { "file": "Reveal.dc.html",    "x": 6200, "y": 0, "w": 1080, "h": 1920, "title": "06 — The reveal" }
+    {
+      "file": "Main.dc.html",
+      "x": 0,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "01 \u2014 Something exists"
+    },
+    {
+      "file": "Clue.dc.html",
+      "x": 1240,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "02 \u2014 The audience filter"
+    },
+    {
+      "file": "LastClue.dc.html",
+      "x": 2480,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "03 \u2014 The tension"
+    },
+    {
+      "file": "AnswerOne.dc.html",
+      "x": 3720,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "04 \u2014 Answer 01"
+    },
+    {
+      "file": "AnswerTwo.dc.html",
+      "x": 4960,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "05 \u2014 Answer 02"
+    },
+    {
+      "file": "Reveal.dc.html",
+      "x": 6200,
+      "y": 0,
+      "w": 1080,
+      "h": 1920,
+      "title": "06 \u2014 The reveal (on-avatar)"
+    }
   ],
   "annotations": [
-    { "id": "clues", "x": 0, "y": -350, "w": 780, "text": "CLUES - one per day, in order. Each is 1080x1920.\n\n01 Something exists, you are not saying what. The redaction is the signature device.\n02 AOV / CAC / LTV. An audience filter, not a description.\n03 A tension they already feel, answer redacted." },
-    { "id": "answers", "x": 860, "y": -350, "w": 780, "text": "ANSWERS - the payoff, before the reveal.\n\n04 Decodes 02. Lets in the followers who did not know the acronyms.\n05 Fills 03's redaction bar with the word: math. Ties both clues together and asks for notifications." },
-    { "id": "reveal", "x": 1720, "y": -350, "w": 820, "text": "REVEAL - 06.\n\nOpens in story 01's voice (\"So - I've been building\") and puts the name where the redaction bars were. That callback is the whole payoff.\n\nThe body line resolves clue 03 directly: the math IS offer, acquisition, retention, margin.\n\nCTA is a DM keyword, not a link - it starts a conversation you can qualify in, and the footer promises a fit check rather than a pitch.\n\nDM keyword is 10X. Set up an auto-reply for it before this posts." },
-    { "id": "craft", "x": 2600, "y": -350, "w": 700, "text": "The empty band above each CTA is deliberate: poll or question sticker on the teasers, link sticker on the reveal if you have a page.\n\nTop and bottom 250px stay clear for Instagram's profile row and reply bar." }
+    {
+      "id": "avatar",
+      "x": 0,
+      "y": -430,
+      "w": 900,
+      "text": "AVATAR (from 10xecom.ca): complete beginners - shift workers and newcomers to North America. Building alongside a job, on a tight budget. Wary of scams. Taught by someone who worked shifts and carried debt.\n\nSite promise: \"Build your Shopify business without quitting your job.\"\nSite disclaimer: \"NO INCOME GUARANTEES. THIS IS A REAL BUSINESS THAT TAKES REAL WORK.\""
+    },
+    {
+      "id": "warning",
+      "x": 980,
+      "y": -430,
+      "w": 900,
+      "text": "WARNING - posts 02 to 05 are aimed at the WRONG PERSON.\n\nAOV / CAC / LTV and \"it's not traffic, it's math\" were written for experienced operators. A complete beginner working shifts does not know those acronyms and will read them as \"not for me\" - the exact opposite of what an audience filter should do for this launch.\n\nPost 01 (the redaction) still works: it says nothing about who it is for.\n\n06 is rebuilt on the real avatar and is safe to post."
+    },
+    {
+      "id": "reveal",
+      "x": 1960,
+      "y": -430,
+      "w": 820,
+      "text": "06 keeps the payoff structure: story 01's voice, then the name where the redaction bars were.\n\nThe promise is the site's own line, with the emotional half in the accent.\n\nThe disclaimer is on the image deliberately - this audience is targeted by scams, so saying \"no income guarantees\" out loud is a trust asset, not a legal chore.\n\nDM keyword is 10X. Set up an auto-reply before posting, and route it to the free strategy call."
+    },
+    {
+      "id": "craft",
+      "x": 2860,
+      "y": -430,
+      "w": 700,
+      "text": "Top and bottom 250px stay clear for Instagram's profile row and reply bar.\n\nThe band above each CTA is deliberate sticker room."
+    }
   ],
-  "launch": { "view": "canvas" }
+  "launch": {
+    "view": "canvas"
+  }
 }

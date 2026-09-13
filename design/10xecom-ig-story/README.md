@@ -32,13 +32,25 @@ closes on "turn on notifications" ahead of the reveal.
 | --- | --- | --- |
 | 06 | `src/Reveal.dc.html` | The name where the redaction bars were |
 
-Story 06 opens in story 01's voice ("So — I've been building") and drops the
-wordmark into the slot the redaction bars occupied, so the campaign's signature
-device is what pays it off. Its body line resolves story 03 directly: the math
-is offer, acquisition, retention, margin.
+Story 06 opens in story 01's voice ("So — this is what I've been building") and
+drops the wordmark into the slot the redaction bars occupied, so the campaign's
+signature device is what pays it off.
 
 Its CTA is a DM keyword (`10X`) rather than a link — it opens a conversation
-that can be qualified, and the footer offers a fit check rather than a pitch.
+that can be qualified.
+
+## Avatar
+
+From 10xecom.ca: complete beginners — shift workers and newcomers to North
+America, building alongside a job on a tight budget, and heavily targeted by
+scams. The promise on story 06 is the site's own line, and the site's
+disclaimer ("no income guarantees, real business, real work") is set on the
+image on purpose: for this audience, saying it out loud is a trust asset.
+
+**Stories 02–05 are written for the wrong person.** `AOV / CAC / LTV` and "it's
+not traffic, it's math" assume an experienced operator. A complete beginner
+working shifts does not know those acronyms and will read them as "not for me".
+Story 01 is unaffected — it says nothing about who it is for.
 
 The curiosity is about the viewer's business, not about the product's name —
 a name nobody has heard yet carries no stakes, so there is no name puzzle.
